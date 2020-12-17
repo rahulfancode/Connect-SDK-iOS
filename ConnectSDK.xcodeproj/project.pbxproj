@@ -183,6 +183,27 @@
 		B2FA88C0C2447C5CAF1E61A4 /* NSMutableDictionary+NilSafe.h in Headers */ = {isa = PBXBuildFile; fileRef = B2FA8E8AF8F4302A1B5541EA /* NSMutableDictionary+NilSafe.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B2FA8A641C2CBEAFB9CF9097 /* NSMutableDictionary+NilSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FA850A1C2BA371738A19B6 /* NSMutableDictionary+NilSafe.m */; };
 		B2FA8F2EAE3B0B60D75F9647 /* CapabilityConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FA8C3DF809E5088781B765 /* CapabilityConstants.m */; };
+		B76CD34E258A7565007509E6 /* ConnectSDKManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B76CD34C258A7565007509E6 /* ConnectSDKManager.h */; };
+		B76CD34F258A7565007509E6 /* ConnectSDKManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B76CD34D258A7565007509E6 /* ConnectSDKManager.m */; };
+		B76CD357258A7584007509E6 /* DiscoveryManagerWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = B76CD355258A7584007509E6 /* DiscoveryManagerWrapper.h */; };
+		B76CD358258A7584007509E6 /* DiscoveryManagerWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = B76CD356258A7584007509E6 /* DiscoveryManagerWrapper.m */; };
+		B76CD360258A75A0007509E6 /* CastMediaInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = B76CD35E258A75A0007509E6 /* CastMediaInfo.h */; };
+		B76CD361258A75A0007509E6 /* CastMediaInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = B76CD35F258A75A0007509E6 /* CastMediaInfo.m */; };
+		B76CD369258A75E9007509E6 /* RemoteMediaControl.h in Headers */ = {isa = PBXBuildFile; fileRef = B76CD367258A75E9007509E6 /* RemoteMediaControl.h */; };
+		B76CD36A258A75E9007509E6 /* RemoteMediaControl.m in Sources */ = {isa = PBXBuildFile; fileRef = B76CD368258A75E9007509E6 /* RemoteMediaControl.m */; };
+		B76CD372258A7605007509E6 /* RemoteMediaEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = B76CD370258A7605007509E6 /* RemoteMediaEvent.h */; };
+		B76CD373258A7605007509E6 /* RemoteMediaEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = B76CD371258A7605007509E6 /* RemoteMediaEvent.m */; };
+		B76CD37B258A764E007509E6 /* CastStatus.h in Headers */ = {isa = PBXBuildFile; fileRef = B76CD379258A764E007509E6 /* CastStatus.h */; };
+		B76CD37C258A764E007509E6 /* CastStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = B76CD37A258A764E007509E6 /* CastStatus.m */; };
+		B76CD383258A76B6007509E6 /* ConnectSDKManagerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = B76CD382258A76B6007509E6 /* ConnectSDKManagerDelegate.h */; };
+		B76CD38B258A76FB007509E6 /* DeviceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B76CD389258A76FB007509E6 /* DeviceManager.h */; };
+		B76CD38C258A76FB007509E6 /* DeviceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B76CD38A258A76FB007509E6 /* DeviceManager.m */; };
+		B76CD393258A7927007509E6 /* DeviceManagerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = B76CD392258A7927007509E6 /* DeviceManagerDelegate.h */; };
+		B76CD39B258A7980007509E6 /* CastMediaPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = B76CD399258A7980007509E6 /* CastMediaPlayer.h */; };
+		B76CD39C258A7980007509E6 /* CastMediaPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B76CD39A258A7980007509E6 /* CastMediaPlayer.m */; };
+		B76CD3A4258A7994007509E6 /* CastDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = B76CD3A2258A7994007509E6 /* CastDevice.h */; };
+		B76CD3A5258A7994007509E6 /* CastDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = B76CD3A3258A7994007509E6 /* CastDevice.m */; };
+		B76CD3AD258A884A007509E6 /* CastState.h in Headers */ = {isa = PBXBuildFile; fileRef = B76CD3AC258A884A007509E6 /* CastState.h */; };
 		BB9F706B1155B806AFBF3336 /* DLNAHTTPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9F703F509283F37E26C0B4 /* DLNAHTTPServer.m */; };
 		BB9F712900733DE480F64D8E /* DLNAHTTPServer.h in Headers */ = {isa = PBXBuildFile; fileRef = BB9F7271D17DCAE1C615A59A /* DLNAHTTPServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BB9F726F85973936620CDADD /* MediaInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = BB9F735CB760F4387DDA84B4 /* MediaInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -565,6 +586,27 @@
 		B2FA850A1C2BA371738A19B6 /* NSMutableDictionary+NilSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+NilSafe.m"; sourceTree = "<group>"; };
 		B2FA8C3DF809E5088781B765 /* CapabilityConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CapabilityConstants.m; sourceTree = "<group>"; };
 		B2FA8E8AF8F4302A1B5541EA /* NSMutableDictionary+NilSafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+NilSafe.h"; sourceTree = "<group>"; };
+		B76CD34C258A7565007509E6 /* ConnectSDKManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConnectSDKManager.h; sourceTree = "<group>"; };
+		B76CD34D258A7565007509E6 /* ConnectSDKManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConnectSDKManager.m; sourceTree = "<group>"; };
+		B76CD355258A7584007509E6 /* DiscoveryManagerWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DiscoveryManagerWrapper.h; sourceTree = "<group>"; };
+		B76CD356258A7584007509E6 /* DiscoveryManagerWrapper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiscoveryManagerWrapper.m; sourceTree = "<group>"; };
+		B76CD35E258A75A0007509E6 /* CastMediaInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CastMediaInfo.h; sourceTree = "<group>"; };
+		B76CD35F258A75A0007509E6 /* CastMediaInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CastMediaInfo.m; sourceTree = "<group>"; };
+		B76CD367258A75E9007509E6 /* RemoteMediaControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RemoteMediaControl.h; sourceTree = "<group>"; };
+		B76CD368258A75E9007509E6 /* RemoteMediaControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RemoteMediaControl.m; sourceTree = "<group>"; };
+		B76CD370258A7605007509E6 /* RemoteMediaEvent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RemoteMediaEvent.h; sourceTree = "<group>"; };
+		B76CD371258A7605007509E6 /* RemoteMediaEvent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RemoteMediaEvent.m; sourceTree = "<group>"; };
+		B76CD379258A764E007509E6 /* CastStatus.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CastStatus.h; sourceTree = "<group>"; };
+		B76CD37A258A764E007509E6 /* CastStatus.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CastStatus.m; sourceTree = "<group>"; };
+		B76CD382258A76B6007509E6 /* ConnectSDKManagerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConnectSDKManagerDelegate.h; sourceTree = "<group>"; };
+		B76CD389258A76FB007509E6 /* DeviceManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeviceManager.h; sourceTree = "<group>"; };
+		B76CD38A258A76FB007509E6 /* DeviceManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeviceManager.m; sourceTree = "<group>"; };
+		B76CD392258A7927007509E6 /* DeviceManagerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeviceManagerDelegate.h; sourceTree = "<group>"; };
+		B76CD399258A7980007509E6 /* CastMediaPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CastMediaPlayer.h; sourceTree = "<group>"; };
+		B76CD39A258A7980007509E6 /* CastMediaPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CastMediaPlayer.m; sourceTree = "<group>"; };
+		B76CD3A2258A7994007509E6 /* CastDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CastDevice.h; sourceTree = "<group>"; };
+		B76CD3A3258A7994007509E6 /* CastDevice.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CastDevice.m; sourceTree = "<group>"; };
+		B76CD3AC258A884A007509E6 /* CastState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CastState.h; sourceTree = "<group>"; };
 		BB9F703F509283F37E26C0B4 /* DLNAHTTPServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLNAHTTPServer.m; sourceTree = "<group>"; };
 		BB9F71B68553DCA74ED1C43E /* ImageInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageInfo.h; sourceTree = "<group>"; };
 		BB9F7271D17DCAE1C615A59A /* DLNAHTTPServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLNAHTTPServer.h; sourceTree = "<group>"; };
@@ -1197,9 +1239,47 @@
 			path = Providers;
 			sourceTree = "<group>";
 		};
+		B76CD301258A3ED2007509E6 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				44E98F5E1B1E63570043BC70 /* OHHTTPStubs.framework */,
+				44E98F5D1B1E63570043BC70 /* OCMock.framework */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		B76CD341258A7508007509E6 /* manager */ = {
+			isa = PBXGroup;
+			children = (
+				B76CD34C258A7565007509E6 /* ConnectSDKManager.h */,
+				B76CD34D258A7565007509E6 /* ConnectSDKManager.m */,
+				B76CD355258A7584007509E6 /* DiscoveryManagerWrapper.h */,
+				B76CD356258A7584007509E6 /* DiscoveryManagerWrapper.m */,
+				B76CD35E258A75A0007509E6 /* CastMediaInfo.h */,
+				B76CD35F258A75A0007509E6 /* CastMediaInfo.m */,
+				B76CD367258A75E9007509E6 /* RemoteMediaControl.h */,
+				B76CD368258A75E9007509E6 /* RemoteMediaControl.m */,
+				B76CD370258A7605007509E6 /* RemoteMediaEvent.h */,
+				B76CD371258A7605007509E6 /* RemoteMediaEvent.m */,
+				B76CD379258A764E007509E6 /* CastStatus.h */,
+				B76CD37A258A764E007509E6 /* CastStatus.m */,
+				B76CD382258A76B6007509E6 /* ConnectSDKManagerDelegate.h */,
+				B76CD389258A76FB007509E6 /* DeviceManager.h */,
+				B76CD38A258A76FB007509E6 /* DeviceManager.m */,
+				B76CD392258A7927007509E6 /* DeviceManagerDelegate.h */,
+				B76CD399258A7980007509E6 /* CastMediaPlayer.h */,
+				B76CD39A258A7980007509E6 /* CastMediaPlayer.m */,
+				B76CD3A2258A7994007509E6 /* CastDevice.h */,
+				B76CD3A3258A7994007509E6 /* CastDevice.m */,
+				B76CD3AC258A884A007509E6 /* CastState.h */,
+			);
+			path = manager;
+			sourceTree = "<group>";
+		};
 		EA5FB799199AEC2E0057B4B4 /* Connect SDK */ = {
 			isa = PBXGroup;
 			children = (
+				B76CD341258A7508007509E6 /* manager */,
 				EA5F82EF199BD95800B7302B /* ConnectSDKDefaultPlatforms.h */,
 				EA5FB79C199AEC550057B4B4 /* core */,
 				EA5FB859199AEC550057B4B4 /* modules */,
@@ -1629,6 +1709,7 @@
 				EA5FB799199AEC2E0057B4B4 /* Connect SDK */,
 				EA61EB1218FE485B00D75696 /* Frameworks */,
 				EA61EB1118FE485B00D75696 /* Products */,
+				B76CD301258A3ED2007509E6 /* Recovered References */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1673,6 +1754,7 @@
 				EA5FB891199AEC560057B4B4 /* CTASIHTTPRequestDelegate.h in Headers */,
 				EA5FB8B9199AEC560057B4B4 /* CTXMLReader.h in Headers */,
 				EA5FB8FC199AEC570057B4B4 /* NetcastTVService.h in Headers */,
+				B76CD383258A76B6007509E6 /* ConnectSDKManagerDelegate.h in Headers */,
 				EA5FB8C5199AEC560057B4B4 /* ExternalInputInfo.h in Headers */,
 				EA5FB87E199AEC550057B4B4 /* DiscoveryProviderDelegate.h in Headers */,
 				EA5FB8DB199AEC560057B4B4 /* VolumeControl.h in Headers */,
@@ -1702,6 +1784,7 @@
 				0F446CC91A6D924D000BB1C0 /* MediaLaunchObject.h in Headers */,
 				EA5FB8CA199AEC560057B4B4 /* SSDPSocketListener.h in Headers */,
 				EA5FB8DF199AEC560057B4B4 /* ServiceCommand.h in Headers */,
+				B76CD357258A7584007509E6 /* DiscoveryManagerWrapper.h in Headers */,
 				EA5FB8E1199AEC560057B4B4 /* ServiceCommandDelegate.h in Headers */,
 				EA5FB8D1199AEC560057B4B4 /* ExternalInputControl.h in Headers */,
 				EA5FB8AB199AEC560057B4B4 /* GCDWebServerURLEncodedFormRequest.h in Headers */,
@@ -1727,9 +1810,13 @@
 				44BCC3F61AB77F7D001BCDAA /* XMLWriter.h in Headers */,
 				EA5FB8C3199AEC560057B4B4 /* DeviceServiceReachability.h in Headers */,
 				EA5FB90D199AEC570057B4B4 /* CastService.h in Headers */,
+				B76CD39B258A7980007509E6 /* CastMediaPlayer.h in Headers */,
 				EA5FB885199AEC560057B4B4 /* CTASICacheDelegate.h in Headers */,
+				B76CD3A4258A7994007509E6 /* CastDevice.h in Headers */,
 				EA5FB870199AEC550057B4B4 /* ConnectableDeviceDelegate.h in Headers */,
 				EA5FB8D2199AEC560057B4B4 /* KeyControl.h in Headers */,
+				B76CD37B258A764E007509E6 /* CastStatus.h in Headers */,
+				B76CD34E258A7565007509E6 /* ConnectSDKManager.h in Headers */,
 				EA5FB8A0199AEC560057B4B4 /* GCDWebServerPrivate.h in Headers */,
 				EA5FB8F6199AEC570057B4B4 /* AirPlayServiceMirrored.h in Headers */,
 				448B28781B041A5600DFF18F /* FireTVMediaPlayer.h in Headers */,
@@ -1743,6 +1830,7 @@
 				EA5FB904199AEC570057B4B4 /* WebAppSession.h in Headers */,
 				EA5FB8FE199AEC570057B4B4 /* RokuService.h in Headers */,
 				EA5FB894199AEC560057B4B4 /* CTASINetworkQueue.h in Headers */,
+				B76CD38B258A76FB007509E6 /* DeviceManager.h in Headers */,
 				EA5FB881199AEC550057B4B4 /* ZeroConfDiscoveryProvider.h in Headers */,
 				EA5FB877199AEC550057B4B4 /* CapabilityFilter.h in Headers */,
 				44A499051B0AD0C1002C94E7 /* FireTVCapabilityMixin.h in Headers */,
@@ -1752,6 +1840,7 @@
 				EA5FB88A199AEC560057B4B4 /* CTASIDownloadCache.h in Headers */,
 				EA5FB897199AEC560057B4B4 /* CTReachability.h in Headers */,
 				EA5FB8D4199AEC560057B4B4 /* MediaControl.h in Headers */,
+				B76CD369258A75E9007509E6 /* RemoteMediaControl.h in Headers */,
 				EA5FB8EB199AEC570057B4B4 /* WebOSTVServiceConfig.h in Headers */,
 				EA5FB8D0199AEC560057B4B4 /* Capability.h in Headers */,
 				EA5FB8EF199AEC570057B4B4 /* DeviceServiceDelegate.h in Headers */,
@@ -1779,13 +1868,17 @@
 				EA5FB8AF199AEC560057B4B4 /* GCDWebServerErrorResponse.h in Headers */,
 				EA5FB8B5199AEC560057B4B4 /* CTGuid.h in Headers */,
 				EA5FB902199AEC570057B4B4 /* LaunchSession.h in Headers */,
+				B76CD393258A7927007509E6 /* DeviceManagerDelegate.h in Headers */,
 				EA5FB8B7199AEC560057B4B4 /* LGSRWebSocket.h in Headers */,
 				EA5FB8B3199AEC560057B4B4 /* GCDWebServerStreamedResponse.h in Headers */,
+				B76CD372258A7605007509E6 /* RemoteMediaEvent.h in Headers */,
 				0F446CC21A6D8353000BB1C0 /* PlayListControl.h in Headers */,
 				EA5F82F4199BDCD300B7302B /* ConnectSDK.h in Headers */,
 				EA5F82F0199BDA2100B7302B /* ConnectSDKDefaultPlatforms.h in Headers */,
 				BB9F726F85973936620CDADD /* MediaInfo.h in Headers */,
 				448B28761B041A5600DFF18F /* FireTVMediaControl.h in Headers */,
+				B76CD360258A75A0007509E6 /* CastMediaInfo.h in Headers */,
+				B76CD3AD258A884A007509E6 /* CastState.h in Headers */,
 				BB9F7AD33329FD4AC66C2D12 /* ImageInfo.h in Headers */,
 				BB9F712900733DE480F64D8E /* DLNAHTTPServer.h in Headers */,
 				B2FA88C0C2447C5CAF1E61A4 /* NSMutableDictionary+NilSafe.h in Headers */,
@@ -1893,6 +1986,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = EA61EB0718FE485B00D75696;
@@ -2071,10 +2165,12 @@
 				EA5FB884199AEC560057B4B4 /* CTASIAuthenticationDialog.m in Sources */,
 				EA5FB895199AEC560057B4B4 /* CTASINetworkQueue.m in Sources */,
 				EA5FB8B0199AEC560057B4B4 /* GCDWebServerErrorResponse.m in Sources */,
+				B76CD34F258A7565007509E6 /* ConnectSDKManager.m in Sources */,
 				EA5FB8F1199AEC570057B4B4 /* DIALService.m in Sources */,
 				EA5FB887199AEC560057B4B4 /* CTASIDataCompressor.m in Sources */,
 				EA5FB8AC199AEC560057B4B4 /* GCDWebServerURLEncodedFormRequest.m in Sources */,
 				448B28771B041A5600DFF18F /* FireTVMediaControl.m in Sources */,
+				B76CD373258A7605007509E6 /* RemoteMediaEvent.m in Sources */,
 				EA5FB8CB199AEC560057B4B4 /* SSDPSocketListener.m in Sources */,
 				EA5FB8DE199AEC560057B4B4 /* ServiceAsyncCommand.m in Sources */,
 				EA5FB8B2199AEC560057B4B4 /* GCDWebServerFileResponse.m in Sources */,
@@ -2085,12 +2181,14 @@
 				44D90AAD1B06B26C00A5CF2A /* AppStateChangeNotifier.m in Sources */,
 				EA5FB8E3199AEC560057B4B4 /* ServiceSubscription.m in Sources */,
 				EA5FB8F9199AEC570057B4B4 /* WebOSTVServiceMouse.m in Sources */,
+				B76CD36A258A75E9007509E6 /* RemoteMediaControl.m in Sources */,
 				EA5FB88B199AEC560057B4B4 /* CTASIDownloadCache.m in Sources */,
 				44A090041B6BDDBC0077E87D /* NSObject+FeatureNotSupported_Private.m in Sources */,
 				EA5FB878199AEC550057B4B4 /* CapabilityFilter.m in Sources */,
 				44D0ECF01B55DA9000E02A8B /* SubtitleInfo.m in Sources */,
 				EA5FB8F3199AEC570057B4B4 /* DLNAService.m in Sources */,
 				EA5FB8B8199AEC560057B4B4 /* LGSRWebSocket.m in Sources */,
+				B76CD38C258A76FB007509E6 /* DeviceManager.m in Sources */,
 				44AD91781AFA7F1000C23A71 /* FireTVService.m in Sources */,
 				EA5FB8EC199AEC570057B4B4 /* WebOSTVServiceConfig.m in Sources */,
 				EA5FB8B6199AEC560057B4B4 /* CTGuid.m in Sources */,
@@ -2119,12 +2217,17 @@
 				EA5FB90A199AEC570057B4B4 /* WebOSTVService.m in Sources */,
 				EA5FB8BA199AEC560057B4B4 /* CTXMLReader.m in Sources */,
 				EA5FB90C199AEC570057B4B4 /* CastDiscoveryProvider.m in Sources */,
+				B76CD37C258A764E007509E6 /* CastStatus.m in Sources */,
 				EA5FB88D199AEC560057B4B4 /* CTASIFormDataRequest.m in Sources */,
 				EA5FB893199AEC560057B4B4 /* CTASIInputStream.m in Sources */,
 				EA5FB8B4199AEC560057B4B4 /* GCDWebServerStreamedResponse.m in Sources */,
 				EA5FB90E199AEC570057B4B4 /* CastService.m in Sources */,
+				B76CD39C258A7980007509E6 /* CastMediaPlayer.m in Sources */,
+				B76CD358258A7584007509E6 /* DiscoveryManagerWrapper.m in Sources */,
+				B76CD3A5258A7994007509E6 /* CastDevice.m in Sources */,
 				44316EFF1AF2F04B000FE655 /* FireTVDiscoveryProvider.m in Sources */,
 				EA5FB8F7199AEC570057B4B4 /* AirPlayServiceMirrored.m in Sources */,
+				B76CD361258A75A0007509E6 /* CastMediaInfo.m in Sources */,
 				EA5FB86F199AEC550057B4B4 /* ConnectableDevice.m in Sources */,
 				EA5FB8E7199AEC560057B4B4 /* ServiceConfig.m in Sources */,
 				EA5FB8C2199AEC560057B4B4 /* ConnectUtil.m in Sources */,
