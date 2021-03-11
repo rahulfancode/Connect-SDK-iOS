@@ -89,7 +89,7 @@ Pod::Spec.new do |s|
 
   s.subspec 'Core' do |sp|
     sp.source_files  = "ConnectSDKDefaultPlatforms.h", "core/**/*.{h,m}"
-    sp.ios.resource_bundle = {"ConnectSDK": "core/Images/*.png"}
+    sp.ios.resource_bundle = {"ConnectSDK" => "core/Images/*.png"}
     sp.exclude_files = (non_arc_files.dup << "core/ConnectSDK*Tests/**/*")
     sp.private_header_files = "core/**/*_Private.h"
     sp.requires_arc = true
